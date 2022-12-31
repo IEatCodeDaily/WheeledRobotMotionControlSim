@@ -136,8 +136,6 @@ class Robot(pygame.sprite.Sprite):
 		self.theta += omega*dt
 
 
-	
-			
 	def update(self):
 		if abs(self.x/self.end_x) > 0.01 or abs(self.y/self.end_y) > 0.01 or abs(self.theta/self.end_theta) > 0.01:
 			self.move()
